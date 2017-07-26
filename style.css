@@ -3,6 +3,7 @@ body {
   background-color: rgb(230,230,230);
   font-size: 16px;
   font-family: 'Roboto Slab', serif;
+  margin-left: 100px;
 }
 
 h1, h2 {
@@ -31,6 +32,27 @@ a:hover {
 
 i {
   font-size: 25px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 30px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar > ul > li {
+  align-content: center;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ /* left: 5px;
+  top: 5px; */
+}
+
+#sidebar > ul > li > a {
+  color: black;
 }
 
 .img-movie {
