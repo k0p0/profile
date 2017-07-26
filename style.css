@@ -66,6 +66,9 @@ i {
   .container {
     width: 700px;
   }
+  .box-white {
+    width: 700px;
+  }
   .img-movie {
     width: 300px;
   }
@@ -73,6 +76,9 @@ i {
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
+    width: 500px;
+  }
+  .box-white {
     width: 500px;
   }
   .img-movie {
@@ -84,18 +90,16 @@ i {
   .container {
     width: 300px;
   }
+  .box-white {
+    width: 300px;
+  }
   .img-movie {
     width: 150px;
   }
 }
 
-.box-movie {
-
-}
-
 .box-white {
   background: white;
-  width: 700px;
   margin: 10px auto;
   padding: 30px;
   border-radius: 3px;
