@@ -1,0 +1,118 @@
+/* style.css */
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
+}
+h1{
+  color: red;
+  font-weight: lighter;
+  font-size: 35px;
+}
+h2 {
+  color: pink;
+  font-weight: lighter;
+  font-size: 15px;
+}
+a {
+  color: orange;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+
+/*
+bleu color:#56AED4;
+orange color:#FE9A2E;
+#2E3541 gris
+
+*/
+
+/** custom design*/
+
+#banner{
+  text-align: center;
+  background-image: url("images/background12.jpg");
+  background-size: cover;
+  padding: 150px;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: orange;
+  font-size: 50px;
+  font-family: 'Rubik', sans-serif;
+}
+#banner p {
+  color: orange;
+  font-family: 'VT323', monospace;
+  opacity: 0.9;
+  font-size: 40px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+
+#footer i {
+  color: #56AEC9;
+}
+.card{
+  padding: 20px;
+  margin: 10px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.card i{
+  font-size:40px; 
+  text-align:center;
+  border:1px solid; 
+  border-color: lightgrey;
+  border-radius:50%; 
+  position:center; 
+  padding-top: 15px;
+  padding-left:15px;
+  padding-bottom: 15px;
+  padding-right: 15px ;
+}
+
+.card i{
+  font-size:40px; 
+  text-align:center;
+  border:1px solid; 
+  border-color: lightgrey;
+  border-radius:50%; 
+  position:center; 
+  padding-top: 15px;
+  padding-left:15px;
+  padding-bottom: 15px;
+  padding-right: 15px ;
+}
+
+.card i:hover{
+  color: #56AEC9;
+  /* border-color: #FE9A2E; */
+}
+
+.card h2{
+  color: #FE9A2E;
+  font-size:20px;
+}
+.card h1 {
+    font-size: 50px;
+  font-family: 'Rubik', sans-serif;
+}
